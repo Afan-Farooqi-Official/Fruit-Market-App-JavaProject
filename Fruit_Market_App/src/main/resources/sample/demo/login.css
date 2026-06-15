@@ -1,0 +1,68 @@
+
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #f0f0f0, #e0e0e0);
+    -fx-padding: 30px;
+}
+
+.login-container {
+    -fx-background-color: #fff;
+    -fx-padding: 300px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 5);
+}
+
+
+.login-title {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-margin-bottom: 25px;
+    -fx-alignment: center;
+    -fx-padding: 5px 0;
+}
+
+
+.label{
+    -fx-font-size: 17px;
+}
+.text-field, .password-field {
+    -fx-pref-width: 300px;
+    -fx-padding: 5px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-font-size: 12px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-prompt-text-fill: #999;
+    -fx-margin: 20px;
+}
+
+.login-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-padding: 5px 30px;
+    -fx-border-radius: 5px;
+    -fx-cursor: pointer;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 2, 0, 0, 2);
+}
+
+.login-button:hover {
+    -fx-background-color: #b9c7bd;
+}
+
+.signout-button{
+    -fx-background-color: #007bff;
+        -fx-text-fill: white;
+        -fx-padding: 5px 30px;
+        -fx-margin: 0px;
+        -fx-cursor: pointer;
+        -fx-border-radius: 5px;
+        -fx-font-size: 16px;
+        -fx-font-weight: bold; /* Make button text bold */
+        -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 2, 0, 0, 2);
+}
+
+.signout-button:hover {
+    -fx-background-color: #b9c7bd;
+}

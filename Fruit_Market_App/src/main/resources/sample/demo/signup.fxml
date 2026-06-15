@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.demo.SignupController"
+            stylesheets="@login.css">
+    <children>
+        <VBox spacing="10" alignment="CENTER" prefHeight="200.0" prefWidth="200.0"
+              AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+              AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"
+              styleClass="login-container">
+            <children>
+                <Label text="Username:" />
+                <TextField fx:id="usernameTextField" styleClass="text-field" />
+                <Label text="Password:" />
+                <PasswordField fx:id="passwordField" styleClass="password-field" />
+                <Label text="Confirm Password:" />
+
+                <VBox alignment="CENTER" spacing="50">
+                <PasswordField fx:id="confirmPasswordField" styleClass="password-field" />
+                <Button text="Signup" onAction="#signupButtonClicked" fx:id="signupButton" styleClass="login-button" />
+                </VBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
